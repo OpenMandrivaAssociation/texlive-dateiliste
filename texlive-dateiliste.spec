@@ -1,3 +1,9 @@
+# revision 16032
+# category Package
+# catalog-ctan /macros/latex/contrib/dateiliste
+# catalog-date 2009-11-04 23:51:05 +0100
+# catalog-license lppl
+# catalog-version 0.5
 Name:		texlive-dateiliste
 Version:	0.5
 Release:	1
@@ -48,6 +54,7 @@ providing RCS-maintained data for printing in the file list.
 #- source
 %doc %{_texmfdistdir}/source/latex/dateiliste/dateiliste.dtx
 %doc %{_texmfdistdir}/source/latex/dateiliste/dateiliste.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +65,5 @@ providing RCS-maintained data for printing in the file list.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
