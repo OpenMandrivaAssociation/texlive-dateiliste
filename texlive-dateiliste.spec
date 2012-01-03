@@ -6,7 +6,7 @@
 # catalog-version 0.5
 Name:		texlive-dateiliste
 Version:	0.5
-Release:	1
+Release:	2
 Summary:	Extensions of the \listfiles concept
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/dateiliste
