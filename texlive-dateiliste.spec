@@ -1,12 +1,12 @@
-# revision 16032
+# revision 27974
 # category Package
 # catalog-ctan /macros/latex/contrib/dateiliste
-# catalog-date 2009-11-04 23:51:05 +0100
+# catalog-date 2012-10-15 00:17:21 +0200
 # catalog-license lppl
-# catalog-version 0.5
+# catalog-version 0.6
 Name:		texlive-dateiliste
-Version:	0.5
-Release:	2
+Version:	0.6
+Release:	1
 Summary:	Extensions of the \listfiles concept
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/dateiliste
