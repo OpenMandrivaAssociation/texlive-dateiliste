@@ -1,12 +1,12 @@
-# revision 27974
+# revision 16032
 # category Package
 # catalog-ctan /macros/latex/contrib/dateiliste
-# catalog-date 2012-10-15 00:17:21 +0200
+# catalog-date 2009-11-04 23:51:05 +0100
 # catalog-license lppl
-# catalog-version 0.6
+# catalog-version 0.5
 Name:		texlive-dateiliste
-Version:	0.6
-Release:	1
+Version:	0.5
+Release:	2
 Summary:	Extensions of the \listfiles concept
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/dateiliste
@@ -54,3 +54,17 @@ providing RCS-maintained data for printing in the file list.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.5-2
++ Revision: 750820
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.5-1
++ Revision: 718204
+- texlive-dateiliste
+- texlive-dateiliste
+- texlive-dateiliste
+- texlive-dateiliste
+
