@@ -3,7 +3,7 @@ Version:	27974
 Release:	2
 Summary:	Extensions of the \listfiles concept
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/dateiliste
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/dateiliste
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dateiliste.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dateiliste.doc.r%{version}.tar.xz
